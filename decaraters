@@ -1,0 +1,52 @@
+def substract(a,b):
+    print(a-b)
+def smart(function):
+    def swap(a,b):
+        if a<b:
+            a,b=b,a
+        function(a,b)
+    return swap
+sub=smart(substract)
+sub(10,20)
+#  Above answer is decaraters 
+# use of decaraters is 
+
+
+# devision 
+def division(a,b):
+    print(a/b)
+def smart(function):
+    def swap(a,b):
+        if a<b:
+            a,b=b,a
+        function(a,b)   
+    return swap
+divi=smart(division)
+divi(10,20)
+
+# square a**2+b**2
+def square(a,b):
+    print(a**2,b**2)
+def smart (function):
+    def swap(a,b):
+        if a<b:
+            a,b=b,a
+        function(a,b)
+    return swap
+suqu=smart(square)
+suqu(5,2)
+
+#(a-b)**2=a**2+b**2-2ab
+
+def square(a,b):
+    print(a**2+b**2-2*a*b)
+
+ab=smart(square)
+ab(10,4)
+
+#a**3-b**3-3*a*b*(a-b)
+def cube(a,b):
+    print(a**3-b**3-3*a*b*(a-b))
+
+ab2=smart(cube)
+ab2(10,20)

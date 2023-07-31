@@ -1,0 +1,8 @@
+
+
+sid,sname,adress,course
+1,kumar,amangal,civil
+2,kiran,amangal,eee
+1,kumar,amangal,civil
+2,kiran,amangal,eee
+3,vinay,kukatpaly,b.com 
